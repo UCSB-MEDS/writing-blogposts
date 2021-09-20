@@ -1,4 +1,4 @@
-# Writing data science-related blogposts for your personal website
+# Writing data science-related blog posts for your personal website
 **Presenter:** Sam Csik   
 **Organization:** UCSB MEDS  
 **Date:** September 29, 2021  
