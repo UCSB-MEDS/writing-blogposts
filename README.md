@@ -6,5 +6,5 @@
 
 Take your blog posts further with some additional training on post customization! As MEDS students, you may be asked to create blog posts as part of course assignments. This workshop is designed to give you some more tools in writing good blog posts.
 
-Materials for this mini-workshop/discussion can be found in this [blog post](https://samanthacsik.github.io/posts/2021-09-21-my-first-test-post/) by [Samantha Csik](https://github.com/samanthacsik).
+Materials for this mini-workshop/discussion can be found in this [blog post](https://samanthacsik.github.io/posts/2021-09-21-my-first-test-post/) by [Samantha Csik](https://github.com/samanthacsik). For presentation's sake, I created a few slides to act as a "wrapper" for my blog post content. Those can be found [here](https://ucsb-meds.github.io/writing-blogposts/#1).
 
