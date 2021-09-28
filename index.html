@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>You’re a data scientist? Blog about it!</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Sam Csik" />
+    <script src="index_files/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# You’re a data scientist? Blog about it!
+## MEDS 2021-22
+### Sam Csik
+### Fall 2021
+
+---
+
+
+
+
+
+
+# I made my first blog post 🎉
+
+.center[
+*And I'm here to tell you why you should too.*
+]
+
+.center[
+&lt;iframe src="https://samanthacsik.github.io/posts/2021-09-21-my-first-test-post/" width="70%" height="400px" data-external="1"&gt;&lt;/iframe&gt;
+]
+
+---
+
+# Why blog
+
+--
+* Build your online profile/portfolio 
+    
+    * **"...sharing *anything* is almost always better than sharing nothing."** -[@drob](https://twitter.com/drob) in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
+
+--
+* Practice writing &amp; communication skills  
+
+--
+* Stay atop DS trends  
+
+
+--
+* Solicit feedback from the community  
+
+
+--
+* Network&lt;sup&gt;1&lt;/sup&gt;  
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt;Real people have gotten real jobs because the right person noticed their blog post at the right time. Lucky for sure, but not unheard of!
+]
+
+--
+* Learn something new and/or solidify understanding   
+
+
+--
+* Combat imposter syndrome  
+   
+    * **"Once you've shared some analyses and code, you'll probably find that you were underrating yourself in some areas."** also -[@drob](https://twitter.com/drob) in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
+
+
+---
+# Contribute to the MEDS Community Blog!
+
+[Scout Leonard](https://scoutcleonard.github.io/) &amp; [Juliet Cohen](https://julietcohen.github.io/) published our first student-authored MEDS blog post this week:
+
+.center[
+&lt;iframe src="https://ucsb-meds.github.io/posts/2021-09-24-summery-summary/" width="70%" height="400px" data-external="1"&gt;&lt;/iframe&gt;
+]
+
+---
+# Explore other data science blogs
+
+* [The Distillery: Showcase](https://distillery.rbind.io/showcase.html) (collection of `{distill}` blogs - you can even add yours!)
+
+* [Kara Woo](https://blog.karawoo.com/): senior data science engineer at InsightRX (and NCEAS alum)
+
+* [Julia Silge](https://juliasilge.com/blog/): data scientist &amp; software engineer at RStudio
+
+* [David Robinson](http://varianceexplained.org/about/): principle data scientist at HEAP
+
+* [Vicki Boykis](http://veekaybee.github.io/): machine learning engineer at Tumblr
+
+* [Chelsea Parlett-Pelleriti](https://cmparlettpelleriti.github.io/writing.html): Assistant Prof at Chapman University &amp; stats consultant
+
+* [R-bloggers](https://www.r-bloggers.com/): a blog aggregator of content contribute by bloggers who write about R
+
+.footnote[
+This is by no means an exhaustive list. [Twitter](https://twitter.com/home?lang=en) is also a great place to find cool people blogging about cool data science stuff.
+]
+---
+# Customizing your blog posts
+
+Check out my [blog post](https://samanthacsik.github.io/posts/2021-09-21-my-first-test-post/) for details on how to do the following: 
+
+1. Adding a preview image
+
+2. Assigning posts to categories
+
+3. Adding a table of contents
+
+4. Creating citeable blog posts
+
+5. Adding a bibliography
+
+6. Adding an appendix
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "%current%",
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

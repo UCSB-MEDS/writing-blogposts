@@ -1,0 +1,145 @@
+---
+title: "You're a data scientist? Blog about it!"
+subtitle: "MEDS 2021-22"
+author: "Sam Csik"
+date: "Fall 2021"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width = 9, fig.height = 3.5, fig.retina = 3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include = FALSE, warning = FALSE}
+# load package
+library(xaringanthemer)
+
+# set accent theme
+style_mono_accent(
+  header_font_google = google_font("Sanchez"), 
+  text_font_google = google_font("Glacial Indifference", "300", "300i"),
+  code_font_google = google_font("Fira Mono"),
+  base_color = "#05859B",
+  white_color = "#93C6C2",
+  background_color = "#FFFFFF",
+  header_font_weight = 400,
+  header_h1_font_size = "2.25rem",
+  header_h2_font_size = "1.75rem",
+  header_h3_font_size = "1.5rem",
+  footnote_font_size = "0.7em",
+)
+```
+
+# I made my first blog post 🎉
+
+.center[
+*And I'm here to tell you why you should too.*
+]
+
+.center[
+```{r, out.width = '70%', echo = FALSE}
+knitr::include_url("https://samanthacsik.github.io/posts/2021-09-21-my-first-test-post/")
+```
+]
+
+---
+
+# Why blog
+
+--
+* Build your online profile/portfolio 
+    
+    * **"...sharing *anything* is almost always better than sharing nothing."** -[@drob](https://twitter.com/drob) in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
+
+--
+* Practice writing & communication skills  
+
+--
+* Stay atop DS trends  
+
+
+--
+* Solicit feedback from the community  
+
+
+--
+* Network<sup>1</sup>  
+
+.footnote[
+<sup>1</sup>Real people have gotten real jobs because the right person noticed their blog post at the right time. Lucky for sure, but not unheard of!
+]
+
+--
+* Learn something new and/or solidify understanding   
+
+
+--
+* Combat imposter syndrome  
+   
+    * **"Once you've shared some analyses and code, you'll probably find that you were underrating yourself in some areas."** also -[@drob](https://twitter.com/drob) in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
+
+
+---
+# Contribute to the MEDS Community Blog!
+
+[Scout Leonard](https://scoutcleonard.github.io/) & [Juliet Cohen](https://julietcohen.github.io/) published our first student-authored MEDS blog post this week:
+
+.center[
+```{r, out.width = '70%', echo = FALSE}
+knitr::include_url("https://ucsb-meds.github.io/posts/2021-09-24-summery-summary/")
+```
+]
+
+---
+# Explore other data science blogs
+
+* [The Distillery: Showcase](https://distillery.rbind.io/showcase.html) (collection of `{distill}` blogs - you can even add yours!)
+
+* [Kara Woo](https://blog.karawoo.com/): senior data science engineer at InsightRX (and NCEAS alum)
+
+* [Julia Silge](https://juliasilge.com/blog/): data scientist & software engineer at RStudio
+
+* [David Robinson](http://varianceexplained.org/about/): principle data scientist at HEAP
+
+* [Vicki Boykis](http://veekaybee.github.io/): machine learning engineer at Tumblr
+
+* [Chelsea Parlett-Pelleriti](https://cmparlettpelleriti.github.io/writing.html): Assistant Prof at Chapman University & stats consultant
+
+* [R-bloggers](https://www.r-bloggers.com/): a blog aggregator of content contribute by bloggers who write about R
+
+.footnote[
+This is by no means an exhaustive list. [Twitter](https://twitter.com/home?lang=en) is also a great place to find cool people blogging about cool data science stuff.
+]
+---
+# Customizing your blog posts
+
+Check out my [blog post](https://samanthacsik.github.io/posts/2021-09-21-my-first-test-post/) for details on how to do the following: 
+
+1. Adding a preview image
+
+2. Assigning posts to categories
+
+3. Adding a table of contents
+
+4. Creating citeable blog posts
+
+5. Adding a bibliography
+
+6. Adding an appendix
