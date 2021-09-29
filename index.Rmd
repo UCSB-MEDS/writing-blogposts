@@ -61,7 +61,7 @@ knitr::include_url("https://samanthacsik.github.io/posts/2021-09-21-my-first-tes
 
 ---
 
-# Why blog
+# Why blog?
 
 --
 * Build your online profile/portfolio 
@@ -122,7 +122,7 @@ knitr::include_url("https://ucsb-meds.github.io/posts/2021-09-24-summery-summary
 
 * [Chelsea Parlett-Pelleriti](https://cmparlettpelleriti.github.io/writing.html): Assistant Prof at Chapman University & stats consultant
 
-* [R-bloggers](https://www.r-bloggers.com/): a blog aggregator of content contribute by bloggers who write about R
+* [R-bloggers](https://www.r-bloggers.com/): a blog aggregator of content contributed by bloggers who write about R
 
 .footnote[
 This is by no means an exhaustive list. [Twitter](https://twitter.com/home?lang=en) is also a great place to find cool people blogging about cool data science stuff.
