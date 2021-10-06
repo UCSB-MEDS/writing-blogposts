@@ -6,6 +6,7 @@ date: "Fall 2021"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
+    seal: false
     nature:
       slideNumberFormat: "%current%"
       highlightStyle: github
@@ -46,6 +47,24 @@ style_mono_accent(
   footnote_font_size = "0.7em",
 )
 ```
+
+class: inverse, middle
+
+# You're a data scientist? Blog about it!<br>
+
+<br>
+
+<span style = 'font-size: 130%;'>Sam Csik | Data Training Coordinator</span>  
+
+National Center for Ecological Analysis & Synthesis<br>
+
+<br>
+
+<span style = 'font-size: 130%;'>Masters of Environmental Data Science | Fall 2021</span>   
+
+Slides & source code available on [`r fontawesome::fa("github", fill = "#93C6C2", a11y = "sem")`](https://github.com/UCSB-MEDS/writing-blogposts)
+
+---
 
 # I made my first blog post 🎉
 
