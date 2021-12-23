@@ -2,7 +2,7 @@
 **Presenter:** Sam Csik   
 **Organization:** UCSB MEDS  
 **Date:** September 29, 2021  
-**Length:** ~1 hour
+**Duration:** ~1 hour
 
 Take your blog posts further with some additional training on post customization! As MEDS students, you may be asked to create blog posts as part of course assignments. This workshop is designed to give you some more tools in writing good blog posts.
 
