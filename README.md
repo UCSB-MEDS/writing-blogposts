@@ -1,9 +1,14 @@
-# Writing data science-related blog posts for your personal website
-**Presenter:** Sam Csik   
-**Organization:** UCSB MEDS  
-**Date:** September 29, 2021  
-**Duration:** ~1 hour
+# Creating your data science blog
+**Taught by:** [@samanthacsik](https://github.com/samanthacsik)    
+**Duration:** ~2 hours
 
-Take your blog posts further with some additional training on post customization! As MEDS students, you may be asked to create blog posts as part of course assignments. This workshop is designed to give you some more tools in writing good blog posts.
+Blogging about your data science adventures has **a lot** of benefits -- it can help you to build your online profile/portfolio, practice your writing and communication skills, stay atop data science trends, solicit feedback from the community, network, learn new skills and/or solidify understanding, combat imposter syndrome, etc. In this workshop, we'll learn how to add a blog to our personal website, customize posts, and (hopefully) get inspired to begin our blogging journeys!
 
-Materials for this mini-workshop/discussion can be found in this [blog post](https://samanthacsik.github.io/posts/2021-09-21-my-first-test-post/) by [Samantha Csik](https://github.com/samanthacsik). For presentation's sake, [here](https://ucsb-meds.github.io/writing-blogposts/#1) are some slides to act as a "wrapper" for this blog post content. 
+This workshop was originally taught using the [`{distill}`](https://rstudio.github.io/distill/) framework, and now, using [Quarto](https://quarto.org/). Materials for both versions are linked below.
+
+---
+
+### Taught on the following dates:
+
+- September 29, 2021 ([materials for `{distill}` blogs](https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/))
+- October 24, 2022 ([materials for Quarto blogs](https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/))
